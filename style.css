@@ -1,0 +1,85 @@
+:root{
+    --orange: #F3AC3C;
+    --darkorange: #998235;
+    --darkgreen: #1A4341;
+}
+body{
+    background: var(--orange);
+}
+.round_1{
+    background: var(--darkorange);
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 25vh;
+    margin-left: 35vh;
+}
+.round_2{
+    background: var(--darkorange);
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 28vh;
+    margin-left: 58vh;
+}
+.curve_1{
+    height: 90px;
+    width: 22px;
+    background: var(--darkgreen);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 70px;
+}
+.round_3{
+    height: 95px;
+    width: 95px;
+    background: var(--orange);
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.round_4{
+    height: 80px;
+    width: 80px;
+    background: var(--darkgreen);
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 63px;
+    margin-left: 57px;
+}
+.rectangle_1{
+    height: 41px;
+    width: 400px;
+    background: var(--darkgreen);
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 500px;
+    z-index: -10;
+}
+.rectangle_2{
+    height: 70px;
+    width: 100px;
+    background: var(--darkorange);
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 840px;
+}
+.curve{
+    height: 12px;
+    position: absolute;
+    width: 60px;
+    background: var(--darkgreen);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.curve_2{
+    margin-top: 15px;
+}
+.curve_3{
+    margin-top: 40px;
+}
